@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors Game</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<!-- this do: clean up the code -->
+<!-- replace js alert with modal -->
+<!-- add proper style to the media queries for smoother transition -->
+<!-- if possible add background image -->
+<body>
+    <header>
+        <nav>
+            <div class="container">
+               <ul class="nav navbar-nav navbar-right">
+                   <li><a href="https://codepen.io/vvang044/full/EyVKaW/">Home</a></li>
+               </ul> 
+            </div><!--container-->
+        </nav>
+    </header>
+    <div class="main_wrapper">
+        <h2><span>ROCK</span><span> PAPER </span><span>SCISSORS</span></h2>
+        <div class="sub_head"> <h4>~ BE THE FIRST TO WIN 5 GAMES ~</h4></div><!--subhead-->
+     
+       
+        <div class="images_wrapper">
+            <div id="rock">
+               <button class="btn btn-default">ROCK </button>
+            </div>
+            <div id="paper">
+                    <button class="btn btn-default">PAPER </button>
+            </div>
+            <div id="scissors">
+                    <button class="btn btn-default">SCISSORS </button>
+            </div>   
+        </div>
+       
+       
+        <div class="rowscontainer">  
+                <div class="" id="grid-item"> </div>
+                <div class="gridHeader" id="grid-item"> CHOICE </div>
+                <div class="gridHeader" id="grid-item"> SCORES </div>
+                <div class="d" id="grid-item"> YOU : </div>
+                <div class="d4" id="grid-item"> <h3><span id="yourChoice"></span></h3></div>
+                <div class="d1" id="grid-item"> <span id="player_score"></span> </div>
+                <div class="d" id="grid-item"> COMPUTER : </div>
+                <div class="d4" id="grid-item"> <h3><span id="computerChoice"></span></h3> </div>
+                <div class="d1" id="grid-item"> <span id="computer_score"></span> </div>
+        </div>
+            <div class="results_wrapper">
+                    <h3> Game Result : <span id="result_text"></span></h3>
+            </div>
+             
+    </div>
+    
+    <footer>
+            <h6>Written and Coded by Vik V. &copy; 2018.</h6>
+    </footer>
+    <script src="main1.js" charset="utf-8"></script><!--change it to main.js for the original version-->
+   
+</body>
+</html>
